@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>az Store | Task-1 | nitishjeet7</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <!--slick-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <!--slider-->
+    <script src="js/jQuery3.4.1.js"></script>
+</head>
+
+<body id="home">
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second" >
+            <img src="./images/logo-min.png" alt="nav-img" sizes="1px" >
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper" >
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+
+            <!-- top header -->
+            <div class="bg-second" >
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li><a><i class='bx bxl-linkedin bx-sm'></i></a></li>
+                        <li><a><i class='bx bxl-twitter bx-sm' ></i></a></li>
+                        <li><a><i class='bx bxl-instagram-alt bx-sm'></i></a></li>
+                        <li><a><i class='bx bxl-facebook bx-sm'></i></a></li>
+                    </ul>
+                    <ul class="devided">
+                        <li>
+                            <a><i class='bx bx-phone bx-sm'></i> +91-987654321</a>
+                        </li>
+                        <li>
+                            <a><i class='bx bx-envelope bx-sm'></i> mail@asiczen.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+
+
+            <!-- mid header -->
+            <div class="bg-main" >
+                <div class="mid-header container">
+                    <img src="./images/logo-min.png" alt="nav-img" sizes="10px" >
+                    <!-- <a href="#" class="logo">anySTYLE</a> -->
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class='bx bx-search-alt'></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+
+            
+
+            <!-- bottom header -->
+            <div class="bg-second" >
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="#">home</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="#">Products<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-2 col-md-2">
+                                        <div class="box">
+                                            <h3>Categories</h3>
+                                            <ul>
+                                                <li><a href="#">Health</a></li>
+                                                <li><a href="#">Security</a></li>
+                                                <li><a href="#">Wireless Device</a></li>
+                                                <li><a href="#">Monitoring</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <section>
+        <div id="containerSlider">
+            <div id="slidingImage"> <img src="./images/img1.png" alt="image1"> </div>
+            <div id="slidingImage"> <img src="./images/img2.png" alt="image2"> </div>
+            <div id="slidingImage"> <img src="./images/img3.png" alt="image3"> </div>
+            <div id="slidingImage"> <img src="./images/img4.png" alt="image4"> </div>
+        </div>
+    </section>
+
+    <!-- promotion section -->
+    <div class="promotion">
+        <div class="row">
+            <div class="col-3 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Fitness</h3>
+                    </div>
+                    <img src="./images/1.png" alt="">
+                </div>
+            </div>
+            <div class="col-3 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Security</h3>
+                    </div>
+                    <img src="./images/2.png" alt="">
+                </div>
+            </div>
+            <div class="col-3 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Reader</h3>
+                    </div>
+                    <img src="./images/3.png" alt="">
+                </div>
+            </div>
+            <div class="col-3 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Measure</h3>
+                    </div>
+                    <img src="./images/4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end promotion section -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our  Produts</h2>
+            </div>
+            <div class="row" id="latest-products">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/1.png" alt="">
+                            <img src="./images/10.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                azBAND (Fitness Band)
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>3000</del></span>
+                                <span class="curr-price">₹2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/2.png" alt="">
+                            <img src="./images/8.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                azLOCK (Door Lock)
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>5000</del></span>
+                                <span class="curr-price">₹8000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/3.png" alt="">
+                            <img src="./images/3.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                azMOTE (Electric Meter)
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>3000</del></span>
+                                <span class="curr-price">₹2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/9.png" alt="">
+                            <img src="./images/6.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                azBRIDGE (Adapter)
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>3000</del></span>
+                                <span class="curr-price">₹2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/5.png" alt="">
+                            <img src="./images/4.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                azSENZ (Water Meter)
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>3000</del></span>
+                                <span class="curr-price">₹2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/11.png" alt="">
+                            <img src="./images/12.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                azBRIDGE (Adapter2)
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>3000</del></span>
+                                <span class="curr-price">₹2000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- special product -->
+    <div class="bg-second">
+        <div class="section container">
+            <div class="row">
+                <div class="col-4 col-md-4">
+                    <div class="sp-item-img">
+                        <img src="./images/13.png" alt="">
+                    </div>
+                </div>
+                <div class="col-7 col-md-8">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name">PULSE OXIMETER</div>
+                        <p class="sp-item-description">
+                            Principle of Pulse Oximeter is as follows: Photoelectric Oxyhemoglobin Inspection Technology is adopted in accordance with Capacity Pulse Scanning & Recording Technology,the Pulse Oximeter can be used in measuring the pulse oxygen saturation and pulse rate through finger.The product is suitable for being used in family, hospital, oxygen bar, community healthcare, physical care in sports (It can be used before or after doing sports, and it is not recommended to use the device during the process of having sport) and etc.
+                            <br> <br><br>
+                        <button class="btn-flat btn-hover">shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end special product -->
+
+    <!-- about us -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>about us</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="./images/about-us.gif" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Asiczen Technologies
+                    </div> 										
+                    <div class="blog-preview">
+                        Asiczen is a Verification IP solutions and design/verification services company. We focus on building cutting edge Design/Verification IPs and offer SoC/IP design/verification services.
+                        <br><br>
+                        <b>Located in:</b> DLF CYBER CITY<br>
+                        <b>Address:</b> DLF Cybercity- Mindfire Solutions,<br> Suite # 812, 8th Floor, Technology Corridor, <br>Chandaka Industrial Estate, K I I T University, Patia, <br>Bhubaneswar, Odisha 751024
+                    </div>
+
+                    <a href="https://asiczen.com/" target="_blank" class="btn-flat btn-hover ">Official Site</a>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- end about us -->
+
+    <!-- footer -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 col-sm-12">
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            <img src="./images/logo.png" alt="nav-img" sizes="10px" >
+                        </h3>
+                        <ul class="contact-socials">
+                            <li><a href="#">
+                                   
+                                    <i class='bx bxl-linkedin'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- end footer -->
+    <div class="end">
+        
+        <h1 class="credit"> <a href="#" target="_blank">   nj7 </a>   all rights reserved! </h1>
+    
+    </div>
+    
+
+    <!-- app js -->
+    <script src="./js/app.js"></script>
+
+    <!-- <script src="./js/index.js"></script> -->
+    <script src="./script.js"></script>
+    <a href="#home" class="scroll-top">
+        <img src="./images/up-arrow.png" alt="">
+    </a>
+</body>
+<!-- <script src=“https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js”></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script>
+    $(document).ready(function()
+    {
+    $('#containerSlider').slick({
+        dots: true,
+        infinite: true,
+        // slidesToShow: 1,
+        // slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 850,
+        speed: 3000
+        });
+    });
+</script>
+
+</html>
