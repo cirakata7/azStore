@@ -14,12 +14,12 @@
     "prefer_related_applications": true,
     "icons": [
         {
-            "src": "https://i.postimg.cc/m2DW0LnH/thumbnail.webp",
+            "src": "https://i.postimg.cc/HLPpmhfT/pet-tracker-1.webp",
             "sizes": "196x196",
             "type": "image/png"
         },
         {
-            "src": "https://i.postimg.cc/m2DW0LnH/thumbnail.webp",
+            "src": "https://i.postimg.cc/HLPpmhfT/pet-tracker-1.webp",
             "sizes": "512x512",
             "type": "image/png"
         }
