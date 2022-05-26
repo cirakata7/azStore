@@ -1,0 +1,27 @@
+{
+    "dir": "ltr",
+    "lang": "English",
+    "name": "Az Store",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://https://genuine-sable-93f600.netlify.app/",
+    "short_name": "Az Store",
+    "theme_color": "#63A3F2",
+    "description": "Asiczen | App",
+    "orientation": "any",
+    "background_color": "#FFFFFF",
+    "related_applications": [],
+    "prefer_related_applications": true,
+    "icons": [
+        {
+            "src": "https://i.postimg.cc/m2DW0LnH/thumbnail.webp",
+            "sizes": "196x196",
+            "type": "image/png"
+        },
+        {
+            "src": "https://i.postimg.cc/m2DW0LnH/thumbnail.webp",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
